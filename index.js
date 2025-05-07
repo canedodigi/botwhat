@@ -4,7 +4,7 @@ const fs = require('fs');
 const axios = require('axios');
 const app = express();
 
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = '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';
 
 const client = new Client({
     authStrategy: new LocalAuth(),
